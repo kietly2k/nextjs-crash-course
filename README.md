@@ -38,3 +38,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## What i learned
+- Every time wanna create some thing that do not have it own route (url) it's should be in components folder
+- Convention: lowercase for pages, uppercase for other components
+- Use style tag with 'jsx' props to define css inside react components
+- [NextJS Routing](https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts)
+- getStaticProps, getServerSideProps, getStaticPaths
+- Can you 'useRouter' to handle page detail
+- API routing
+- Create detail page. Render detail page base on id param
+- Create api that return data for spefic id
+- Custom Meta component. When use Meta component in Layout. Can be used in other component and it will not duplicate and it's will override
